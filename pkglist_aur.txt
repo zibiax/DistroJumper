@@ -6,9 +6,6 @@ alacritty
 alsa-firmware
 alsa-plugins
 alsa-utils
-amd-ucode
-appmenu-gtk-module
-archlinux-keyring
 ark
 audiocd-kio
 autoconf
@@ -49,7 +46,6 @@ dosfstools
 dotnet-host
 dotnet-sdk
 downgrade
-dragon
 duf
 e2fsprogs
 efibootmgr
