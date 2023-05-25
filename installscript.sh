@@ -3,13 +3,11 @@
 # Name of the file containing package names
 filename="pkglist_aur.txt"
 
-# Check if the file exists
 if [ ! -f "$filename" ]; then
   echo "File $filename not found."
   exit 1
 fi
 
-# Read the package names from the file and install them
 while IFS= read -r package; do
   echo "Installing package: $package"
   
